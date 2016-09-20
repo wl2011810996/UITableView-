@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AC69EB01D8F863F00C60D87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69EAF1D8F863F00C60D87 /* main.m */; };
+		4AC69EB31D8F863F00C60D87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69EB21D8F863F00C60D87 /* AppDelegate.m */; };
+		4AC69EB61D8F863F00C60D87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69EB51D8F863F00C60D87 /* ViewController.m */; };
+		4AC69EB91D8F863F00C60D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC69EB71D8F863F00C60D87 /* Main.storyboard */; };
+		4AC69EBB1D8F863F00C60D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC69EBA1D8F863F00C60D87 /* Assets.xcassets */; };
+		4AC69EBE1D8F863F00C60D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC69EBC1D8F863F00C60D87 /* LaunchScreen.storyboard */; };
+		4AC69EC91D8F863F00C60D87 /* UITableView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69EC81D8F863F00C60D87 /* UITableView____Tests.m */; };
+		4AC69ED41D8F863F00C60D87 /* UITableView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69ED31D8F863F00C60D87 /* UITableView____UITests.m */; };
+		4AC69EE21D8F87EF00C60D87 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AC69EE11D8F87EF00C60D87 /* data.json */; };
+		4AC69EED1D8F8AB700C60D87 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69EEC1D8F8AB700C60D87 /* TestModel.m */; };
+		4AC69EF11D8F8B4100C60D87 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69EEF1D8F8B4100C60D87 /* TestCell.m */; };
+		4AC69EF21D8F8B4100C60D87 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AC69EF01D8F8B4100C60D87 /* TestCell.xib */; };
+		4AC69F2D1D8FE50B00C60D87 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69F2B1D8FE50B00C60D87 /* SubViewController.m */; };
+		4AC69F2E1D8FE50B00C60D87 /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AC69F2C1D8FE50B00C60D87 /* SubViewController.xib */; };
+		4AC69F311D8FE5E900C60D87 /* SubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69F301D8FE5E900C60D87 /* SubModel.m */; };
+		4AC69F351D8FE60600C60D87 /* SubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC69F331D8FE60600C60D87 /* SubCell.m */; };
+		4AC69F361D8FE60600C60D87 /* SubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AC69F341D8FE60600C60D87 /* SubCell.xib */; };
+		ABD1AD803E11AD458E4074F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4B3C607074F4C6BB3A5C97 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AC69EC51D8F863F00C60D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC69EA31D8F863F00C60D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC69EAA1D8F863F00C60D87;
+			remoteInfo = "UITableView计算高度";
+		};
+		4AC69ED01D8F863F00C60D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC69EA31D8F863F00C60D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC69EAA1D8F863F00C60D87;
+			remoteInfo = "UITableView计算高度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AC69EAB1D8F863F00C60D87 /* UITableView计算高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView计算高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC69EAF1D8F863F00C60D87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AC69EB11D8F863F00C60D87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AC69EB21D8F863F00C60D87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AC69EB41D8F863F00C60D87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AC69EB51D8F863F00C60D87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AC69EB81D8F863F00C60D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AC69EBA1D8F863F00C60D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AC69EBD1D8F863F00C60D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AC69EBF1D8F863F00C60D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC69EC41D8F863F00C60D87 /* UITableView计算高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView计算高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC69EC81D8F863F00C60D87 /* UITableView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView____Tests.m"; sourceTree = "<group>"; };
+		4AC69ECA1D8F863F00C60D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC69ECF1D8F863F00C60D87 /* UITableView计算高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView计算高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC69ED31D8F863F00C60D87 /* UITableView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView____UITests.m"; sourceTree = "<group>"; };
+		4AC69ED51D8F863F00C60D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC69EE11D8F87EF00C60D87 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		4AC69EEB1D8F8AB700C60D87 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		4AC69EEC1D8F8AB700C60D87 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		4AC69EEE1D8F8B4100C60D87 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		4AC69EEF1D8F8B4100C60D87 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		4AC69EF01D8F8B4100C60D87 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
+		4AC69F2A1D8FE50B00C60D87 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		4AC69F2B1D8FE50B00C60D87 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		4AC69F2C1D8FE50B00C60D87 /* SubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
+		4AC69F2F1D8FE5E900C60D87 /* SubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubModel.h; sourceTree = "<group>"; };
+		4AC69F301D8FE5E900C60D87 /* SubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubModel.m; sourceTree = "<group>"; };
+		4AC69F321D8FE60600C60D87 /* SubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCell.h; sourceTree = "<group>"; };
+		4AC69F331D8FE60600C60D87 /* SubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCell.m; sourceTree = "<group>"; };
+		4AC69F341D8FE60600C60D87 /* SubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubCell.xib; sourceTree = "<group>"; };
+		7B000FEDF400C3851A9BC41E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		870C5E3496D96F7A3442B85F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BD4B3C607074F4C6BB3A5C97 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC69EA81D8F863F00C60D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD1AD803E11AD458E4074F0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC69EC11D8F863F00C60D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC69ECC1D8F863F00C60D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC69EA21D8F863F00C60D87 = {
+			isa = PBXGroup;
+			children = (
+				4AC69EAD1D8F863F00C60D87 /* UITableView计算高度 */,
+				4AC69EC71D8F863F00C60D87 /* UITableView计算高度Tests */,
+				4AC69ED21D8F863F00C60D87 /* UITableView计算高度UITests */,
+				4AC69EAC1D8F863F00C60D87 /* Products */,
+				A38C9A26E401F9B78473A07B /* Pods */,
+				7AAC3CF8346DC5EFB493BA10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC69EAC1D8F863F00C60D87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC69EAB1D8F863F00C60D87 /* UITableView计算高度.app */,
+				4AC69EC41D8F863F00C60D87 /* UITableView计算高度Tests.xctest */,
+				4AC69ECF1D8F863F00C60D87 /* UITableView计算高度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC69EAD1D8F863F00C60D87 /* UITableView计算高度 */ = {
+			isa = PBXGroup;
+			children = (
+				4AC69EB11D8F863F00C60D87 /* AppDelegate.h */,
+				4AC69EB21D8F863F00C60D87 /* AppDelegate.m */,
+				4AC69EB41D8F863F00C60D87 /* ViewController.h */,
+				4AC69EB51D8F863F00C60D87 /* ViewController.m */,
+				4AC69F2A1D8FE50B00C60D87 /* SubViewController.h */,
+				4AC69F2B1D8FE50B00C60D87 /* SubViewController.m */,
+				4AC69F2C1D8FE50B00C60D87 /* SubViewController.xib */,
+				4AC69F2F1D8FE5E900C60D87 /* SubModel.h */,
+				4AC69F301D8FE5E900C60D87 /* SubModel.m */,
+				4AC69F321D8FE60600C60D87 /* SubCell.h */,
+				4AC69F331D8FE60600C60D87 /* SubCell.m */,
+				4AC69F341D8FE60600C60D87 /* SubCell.xib */,
+				4AC69EEB1D8F8AB700C60D87 /* TestModel.h */,
+				4AC69EEC1D8F8AB700C60D87 /* TestModel.m */,
+				4AC69EEE1D8F8B4100C60D87 /* TestCell.h */,
+				4AC69EEF1D8F8B4100C60D87 /* TestCell.m */,
+				4AC69EF01D8F8B4100C60D87 /* TestCell.xib */,
+				4AC69EB71D8F863F00C60D87 /* Main.storyboard */,
+				4AC69EBA1D8F863F00C60D87 /* Assets.xcassets */,
+				4AC69EBC1D8F863F00C60D87 /* LaunchScreen.storyboard */,
+				4AC69EE11D8F87EF00C60D87 /* data.json */,
+				4AC69EBF1D8F863F00C60D87 /* Info.plist */,
+				4AC69EAE1D8F863F00C60D87 /* Supporting Files */,
+			);
+			path = "UITableView计算高度";
+			sourceTree = "<group>";
+		};
+		4AC69EAE1D8F863F00C60D87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AC69EAF1D8F863F00C60D87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AC69EC71D8F863F00C60D87 /* UITableView计算高度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC69EC81D8F863F00C60D87 /* UITableView____Tests.m */,
+				4AC69ECA1D8F863F00C60D87 /* Info.plist */,
+			);
+			path = "UITableView计算高度Tests";
+			sourceTree = "<group>";
+		};
+		4AC69ED21D8F863F00C60D87 /* UITableView计算高度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC69ED31D8F863F00C60D87 /* UITableView____UITests.m */,
+				4AC69ED51D8F863F00C60D87 /* Info.plist */,
+			);
+			path = "UITableView计算高度UITests";
+			sourceTree = "<group>";
+		};
+		7AAC3CF8346DC5EFB493BA10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B3C607074F4C6BB3A5C97 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A38C9A26E401F9B78473A07B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B000FEDF400C3851A9BC41E /* Pods.debug.xcconfig */,
+				870C5E3496D96F7A3442B85F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC69EAA1D8F863F00C60D87 /* UITableView计算高度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC69ED81D8F863F00C60D87 /* Build configuration list for PBXNativeTarget "UITableView计算高度" */;
+			buildPhases = (
+				8036B0FF3F2924A227F93BA6 /* Check Pods Manifest.lock */,
+				4AC69EA71D8F863F00C60D87 /* Sources */,
+				4AC69EA81D8F863F00C60D87 /* Frameworks */,
+				4AC69EA91D8F863F00C60D87 /* Resources */,
+				932938468F97370AE276AA16 /* Embed Pods Frameworks */,
+				8DEF8E718AB24115E14B3B9E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView计算高度";
+			productName = "UITableView计算高度";
+			productReference = 4AC69EAB1D8F863F00C60D87 /* UITableView计算高度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AC69EC31D8F863F00C60D87 /* UITableView计算高度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC69EDB1D8F863F00C60D87 /* Build configuration list for PBXNativeTarget "UITableView计算高度Tests" */;
+			buildPhases = (
+				4AC69EC01D8F863F00C60D87 /* Sources */,
+				4AC69EC11D8F863F00C60D87 /* Frameworks */,
+				4AC69EC21D8F863F00C60D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC69EC61D8F863F00C60D87 /* PBXTargetDependency */,
+			);
+			name = "UITableView计算高度Tests";
+			productName = "UITableView计算高度Tests";
+			productReference = 4AC69EC41D8F863F00C60D87 /* UITableView计算高度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AC69ECE1D8F863F00C60D87 /* UITableView计算高度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC69EDE1D8F863F00C60D87 /* Build configuration list for PBXNativeTarget "UITableView计算高度UITests" */;
+			buildPhases = (
+				4AC69ECB1D8F863F00C60D87 /* Sources */,
+				4AC69ECC1D8F863F00C60D87 /* Frameworks */,
+				4AC69ECD1D8F863F00C60D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC69ED11D8F863F00C60D87 /* PBXTargetDependency */,
+			);
+			name = "UITableView计算高度UITests";
+			productName = "UITableView计算高度UITests";
+			productReference = 4AC69ECF1D8F863F00C60D87 /* UITableView计算高度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC69EA31D8F863F00C60D87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wleleven;
+				TargetAttributes = {
+					4AC69EAA1D8F863F00C60D87 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3S5X8B2569;
+					};
+					4AC69EC31D8F863F00C60D87 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3S5X8B2569;
+						TestTargetID = 4AC69EAA1D8F863F00C60D87;
+					};
+					4AC69ECE1D8F863F00C60D87 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3S5X8B2569;
+						TestTargetID = 4AC69EAA1D8F863F00C60D87;
+					};
+				};
+			};
+			buildConfigurationList = 4AC69EA61D8F863F00C60D87 /* Build configuration list for PBXProject "UITableView计算高度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AC69EA21D8F863F00C60D87;
+			productRefGroup = 4AC69EAC1D8F863F00C60D87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC69EAA1D8F863F00C60D87 /* UITableView计算高度 */,
+				4AC69EC31D8F863F00C60D87 /* UITableView计算高度Tests */,
+				4AC69ECE1D8F863F00C60D87 /* UITableView计算高度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AC69EA91D8F863F00C60D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC69EBE1D8F863F00C60D87 /* LaunchScreen.storyboard in Resources */,
+				4AC69F2E1D8FE50B00C60D87 /* SubViewController.xib in Resources */,
+				4AC69EBB1D8F863F00C60D87 /* Assets.xcassets in Resources */,
+				4AC69EB91D8F863F00C60D87 /* Main.storyboard in Resources */,
+				4AC69EF21D8F8B4100C60D87 /* TestCell.xib in Resources */,
+				4AC69EE21D8F87EF00C60D87 /* data.json in Resources */,
+				4AC69F361D8FE60600C60D87 /* SubCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC69EC21D8F863F00C60D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC69ECD1D8F863F00C60D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8036B0FF3F2924A227F93BA6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DEF8E718AB24115E14B3B9E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		932938468F97370AE276AA16 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC69EA71D8F863F00C60D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC69EB61D8F863F00C60D87 /* ViewController.m in Sources */,
+				4AC69F311D8FE5E900C60D87 /* SubModel.m in Sources */,
+				4AC69EED1D8F8AB700C60D87 /* TestModel.m in Sources */,
+				4AC69EF11D8F8B4100C60D87 /* TestCell.m in Sources */,
+				4AC69F2D1D8FE50B00C60D87 /* SubViewController.m in Sources */,
+				4AC69EB31D8F863F00C60D87 /* AppDelegate.m in Sources */,
+				4AC69F351D8FE60600C60D87 /* SubCell.m in Sources */,
+				4AC69EB01D8F863F00C60D87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC69EC01D8F863F00C60D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC69EC91D8F863F00C60D87 /* UITableView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC69ECB1D8F863F00C60D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC69ED41D8F863F00C60D87 /* UITableView____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AC69EC61D8F863F00C60D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC69EAA1D8F863F00C60D87 /* UITableView计算高度 */;
+			targetProxy = 4AC69EC51D8F863F00C60D87 /* PBXContainerItemProxy */;
+		};
+		4AC69ED11D8F863F00C60D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC69EAA1D8F863F00C60D87 /* UITableView计算高度 */;
+			targetProxy = 4AC69ED01D8F863F00C60D87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AC69EB71D8F863F00C60D87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC69EB81D8F863F00C60D87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AC69EBC1D8F863F00C60D87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC69EBD1D8F863F00C60D87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AC69ED61D8F863F00C60D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AC69ED71D8F863F00C60D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC69ED91D8F863F00C60D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B000FEDF400C3851A9BC41E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView计算高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GloriousSoftware.com.UITableView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AC69EDA1D8F863F00C60D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870C5E3496D96F7A3442B85F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView计算高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GloriousSoftware.com.UITableView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AC69EDC1D8F863F00C60D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableView计算高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GloriousSoftware.com.UITableView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView计算高度.app/UITableView计算高度";
+			};
+			name = Debug;
+		};
+		4AC69EDD1D8F863F00C60D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UITableView计算高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GloriousSoftware.com.UITableView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView计算高度.app/UITableView计算高度";
+			};
+			name = Release;
+		};
+		4AC69EDF1D8F863F00C60D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableView计算高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GloriousSoftware.com.UITableView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableView计算高度";
+			};
+			name = Debug;
+		};
+		4AC69EE01D8F863F00C60D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UITableView计算高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GloriousSoftware.com.UITableView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UITableView计算高度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC69EA61D8F863F00C60D87 /* Build configuration list for PBXProject "UITableView计算高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC69ED61D8F863F00C60D87 /* Debug */,
+				4AC69ED71D8F863F00C60D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC69ED81D8F863F00C60D87 /* Build configuration list for PBXNativeTarget "UITableView计算高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC69ED91D8F863F00C60D87 /* Debug */,
+				4AC69EDA1D8F863F00C60D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC69EDB1D8F863F00C60D87 /* Build configuration list for PBXNativeTarget "UITableView计算高度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC69EDC1D8F863F00C60D87 /* Debug */,
+				4AC69EDD1D8F863F00C60D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC69EDE1D8F863F00C60D87 /* Build configuration list for PBXNativeTarget "UITableView计算高度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC69EDF1D8F863F00C60D87 /* Debug */,
+				4AC69EE01D8F863F00C60D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC69EA31D8F863F00C60D87 /* Project object */;
+}
